@@ -17,3 +17,7 @@ form{
 
 }
 
+tr:hover {
+    background-color: rgb(201, 201, 196);
+  }
+  
