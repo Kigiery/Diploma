@@ -12,7 +12,7 @@ const routes: Routes = [
       {
         path: '',
         pathMatch: 'full',
-        redirectTo: 'studentInfo',
+        redirectTo: 'search',
       },
       {
         path: 'studentInfo',

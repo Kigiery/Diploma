@@ -14,7 +14,7 @@ export class StudentSearchService {
   public search(searchParams: SearchStudentInterface): Observable<SearchStudentResultInterface[]> {
     return this.http.post('search', {
       ...searchParams,
-      // nationality: 'FOREIGN',
+      nationality: 'FOREIGN',
     });
   }
 }
